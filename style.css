@@ -1,0 +1,12 @@
+body{
+	/* this is the outermost element on your page*/
+	background: yellow;
+	font-family: 'UN-11ST-Regular';
+	font-size: 12px;
+}
+
+@font-face{
+	font-family: 'UN-11ST-Regular';
+	src: url('UN-11ST-Regular.woff') format('woff');
+	font-weight: 200 700;
+}

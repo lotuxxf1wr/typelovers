@@ -1,12 +1,30 @@
 body{
 	/* this is the outermost element on your page*/
-	background: yellow;
-	font-family: 'UN-11ST-Regular';
-	font-size: 12px;
+	margin: 0;
+	padding: 10px;
+	line-height: 1.25;
+	letter-spacing: .015em;
+	word-spacing: .001em;
+	background: white;
+	font-family: 'arial';
+	font-size: 15px;
 }
 
 @font-face{
-	font-family: 'UN-11ST-Regular';
-	src: url('UN-11ST-Regular.woff') format('woff');
+	font-family: 'arial';
+	src: url('arial.woff') format('woff');
 	font-weight: 200 700;
+}
+
+.column_test{
+	column-count: 3;
+	column-gap: 40px;
+
+}
+.sufferig_message{
+	font-size: 15px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 15px;
+	padding-right: 15px;
 }

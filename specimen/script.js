@@ -16,4 +16,4 @@
       cursor.style.left = `${mouseX}px`;
       cursor.style.top = `${mouseY}px`;
     });
-  </script>
+  </script>s
